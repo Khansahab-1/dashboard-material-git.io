@@ -42,8 +42,8 @@ import Tables from "layouts/tables";
 // import RTL from "layouts/rtl";
 // import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
-import SignIn from "layouts/authentication/sign-in";
-import SignUp from "layouts/authentication/sign-up";
+// import SignIn from "layouts/authentication/sign-in";
+// import SignUp from "layouts/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -59,7 +59,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Employee",
+    name: "Employeelist",
     key: "Employee",
     icon: <Icon fontSize="small">people</Icon>,
     route: "/Employee",
